@@ -4,7 +4,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import type { Technology } from './Types/technologyTypes';
 import Nav from './components/Nav';
 import Banner from './components/Banner';
-
+import StackSidebar from './components/StackSidebar';
+import Footer from './components/Footer';
 
 const TechCard = lazy(() => import('./components/Technology/TechCard'));
 
