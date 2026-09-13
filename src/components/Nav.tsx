@@ -3,7 +3,7 @@ import logo from "../assets/logo-text.png";
 const Nav = () => {
   return (
     <nav className="sticky top-0 z-50 bg-white py-4 shadow-sm">
-      <div className="max-w-[1300px] mx-auto flex items-center justify-between px-4">
+      <div className="Container mx-auto flex items-center justify-between px-4">
         <button
           className="md:hidden text-2xl text-[#475569] focus:outline-none cursor-pointer"
           aria-label="Menu"
