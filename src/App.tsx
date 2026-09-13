@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 const TechCard = lazy(() => import('./components/Technology/TechCard'));
 
- = () => {
+ const App: React.FC = () => {
   const [technologies, setTechnologies] = useState<Technology[]>([]);
   const [stack, setStack] = useState<Technology[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
