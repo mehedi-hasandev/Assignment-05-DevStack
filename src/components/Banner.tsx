@@ -9,7 +9,7 @@ const Banner = () => {
                 <p className="mx-auto max-w-xl text-sm leading-6 text-gray-600 sm:text-base lg:mx-0">
                     Explore frontend, backend, database, and tooling options, < br /> compare them side by side, and put together the stack that fits your <br /> next project.</p>
                 <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center lg:justify-start">
-                    <button className="rounded-lg bg-gradient-to-r from-orange-500 to-pink-500 px-5 py-3 font-semibold text-white">Explore Technologies</button>
+                    <button className="rounded-lg bg-gradient-to-r from-orange-500 via-pink-500 to-violet-500 px-5 py-3 font-semibold text-white">Explore Technologies</button>
                     <button className="rounded-lg border border-gray-200 bg-white px-10 py-3 text-gray-700">Learn More</button>
                 </div>
             </div>
